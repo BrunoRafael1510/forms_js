@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="name">
+        <label>Nome:</label>
+        <input type="text" id="name">
+    </div>
+    <br>
+
+    <div id="cep">
+        <label>CEP:</label>
+        <input type="text" id="cep">
+    </div>
+    <br>
+
+    <div id="rua">
+        <label>Rua:</label>
+        <input type="text" id="rua">
+    </div>
+    <br>
+
+    <div id="bairro">
+        <label>Bairro:</label>
+        <input type="text" id="bairro">
+    </div>
+    <br>
+
+    <div id="city">
+        <label>Cidade:</label>
+        <input type="text" id="city">
+    </div>
+    <br>
+
+    <div id="uf">
+        <label>UF:</label>
+        <input type="text" id="uf">
+    </div>
+    <br>
+
+    <div id="email">
+        <label>EMAIL:</label>
+        <input type="email" id="email">
+    </div>
+    <br>
+
+    <div id="botao">
+        <button onclick="limparForm">Cadastar</button>
+    </div>
+    <a href="index_login.html">a</a>
+</body>
+<script src="js/codigo.js"></script>
+<script src="main.js"></script>
+<script src="js/cep.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+<script>
+    $('.cep').mask('00000-000');
+</script>
+
+</html>
